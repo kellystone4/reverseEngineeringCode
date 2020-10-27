@@ -46,17 +46,37 @@ Within this project, I included:
 
 <u>
 
-## Issues with the project:
+## Explanation Of Every File:
 
 </u>
 
 <br>
 
-- I had issues resolving some bugs, so it I had to finish that before completing the layout of the page. 
+- Config Folder: 
 
-    -  I solved the bugs by going through each of the errors and trying out different things until I fixed each one. 
+    -  Within the config folder, there is a config.json and passport.js file, and a middleware folder containing a isAuthentiated.js file.
+    - The config file is for 
 
   <br>
+
+- Models Folder: 
+
+    -  Within the models folder, there are three files: index.js, package.json and user.js.
+    - The models folder is for 
+
+  <br>
+
+- Public Folder: 
+
+    -  Within the public folder, there are two folders: js (containing three files: login.js, members.js and signup.js), stylesheets (style.css), and three files login.html, members.html, and signup.html.
+    - The public folder is for 
+
+  <br>
+  
+- Routes Folder: 
+
+    -  Within the routes folder, there are two files: api-routes.js and html-routes.js.
+    - The routes folder is for 
 
 <br>
 
