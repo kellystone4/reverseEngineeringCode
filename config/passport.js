@@ -27,19 +27,19 @@ passport.use(new LocalStrategy(
       }
       // then, if there is no matching email, this function runs
     }).then(function(dbUser) {
-      // saying, if it is null, return the message "incorrect email"
+      // this says that if it is null, return the message "incorrect email"
       if (!dbUser) {
         return done(null, false, {
           message: "Incorrect email."
         });
       }
-      // If there is a user with the given email, but the password the user gives us is incorrect
+      // similar as above but for wrong password with correct email return message "incorrect password"
       else if (!dbUser.validPassword(password)) {
         return done(null, false, {
           message: "Incorrect password."
         });
       }
-      // If none of the above, return the user
+      // if both are correct, return the user information
       return done(null, dbUser);
     });
   }
@@ -56,5 +56,5 @@ passport.deserializeUser(function(obj, cb) {
   cb(null, obj);
 });
 
-// Exporting our configured passport
+// this exports the configured passport
 module.exports = passport;

@@ -1,5 +1,5 @@
 // this file reads the JSON found in config.json file.
-// development,test,production: enter your database (sql) username, password, database name, host, and dialect(mysql)
+// development,test,production: enter your database SQL username, password, database name, host, and dialect(mysql)
 
 {
   "development": {
