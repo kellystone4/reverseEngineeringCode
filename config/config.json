@@ -1,0 +1,26 @@
+// this file reads the JSON found in config.json file.
+// development,test,production: enter your database (sql) username, password, database name, host, and dialect(mysql)
+
+{
+  "development": {
+    "username": "root",
+    "password": "rootroot",
+    "database": "passport_demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "rootroot",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "rootroot",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
