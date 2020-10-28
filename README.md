@@ -58,10 +58,6 @@ Within this project, I included:
 
 <br>
 
-- Config Folder: 
-
-    -  Within the config folder, there is a config.json and passport.js file, and a middleware folder containing a 
-
 <br>
 
 <u>
