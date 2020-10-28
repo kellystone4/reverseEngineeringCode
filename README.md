@@ -71,9 +71,9 @@ Within this project, I included:
 - Config Folder: 
 
     -  Within the config folder, there is a config.json and passport.js file, and a middleware folder containing a isAuthentiated.js file.
-    - The config.json connects to the server, and contains the information to the database. In this folder, you input your username and password, databasename, host, and dialect. 
-    - The passport.js file contains the user email and password for login information. Authentication middleware for Node.js. It serves a single purpose: to authenticate requests. Three pieces need to be configured to use Passport for authentication: 1. authentication strategies, 2. application software, 3. sessions(optional)
-    - In our middleware, we have isAuthentication.js Middleware provides services and capabilities that are common to applications such as: data management, application services, messaging, authentication, and API management. In this file, we have a restriction on routes that allow a user in and request if the user is logged in.
+       - The config.json connects to the server, and contains the information to the database. In this folder, you input your username and password, databasename, host, and dialect. 
+       - The passport.js file contains the user email and password for login information. Authentication middleware for Node.js. It serves a single purpose: to authenticate requests. Three pieces need to be configured to use Passport for authentication: 1. authentication strategies, 2. application software, 3. sessions(optional)
+       - In our middleware, we have isAuthentication.js Middleware provides services and capabilities that are common to applications such as: data management, application services, messaging, authentication, and API management. In this file, we have a restriction on routes that allow a user in and request if the user is logged in.
 
 
 
@@ -91,17 +91,17 @@ Within this project, I included:
 - Public Folder: 
 
     -  Within the public folder, there are two folders: js (containing three files: login.js, members.js and signup.js), stylesheets (style.css), and three files login.html, members.html, and signup.html.
-    - The login.js file provides validation and submits form for the user's email and password. It also takes action if the email or password is blank or wrong, it returns error.
-    - The members.js file does a GET request to figure out which user is logged in, and updates the HTML onto the page.
-    - The signup.html file validates email when signup button is clicked, and if both email and password are correct, and it will redirect to the members page. 
+       - The login.js file provides validation and submits form for the user's email and password. It also takes action if the email or password is blank or wrong, it returns error.
+       - The members.js file does a GET request to figure out which user is logged in, and updates the HTML onto the page.
+       - The signup.html file validates email when signup button is clicked, and if both email and password are correct, and it will redirect to the members page. 
 
   <br>
   
 - Routes Folder: 
 
     -  Within the routes folder, there are two files: api-routes.js and html-routes.js.
-    - The api-routes.js file contains all the API routes (.post, .get) for signups, login, and logging out. 
-    - The html-routes.js redirects the user to the correct page, members or public depending on the login information.
+       - The api-routes.js file contains all the API routes (.post, .get) for signups, login, and logging out. 
+       - The html-routes.js redirects the user to the correct page, members or public depending on the login information.
 
 <br>
 
