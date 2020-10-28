@@ -135,10 +135,10 @@ Within this project, I included:
 
 ## Links:
 
-- [Link to Github](https://github.com/kellystone4/eat_da_burger)
+- [Link to Github](https://github.com/kellystone4/reverseEngineeringCode)
 - [Link to LinkedIn](https://www.linkedin.com/in/kelly-a-stone/)
 
 <br>
 
 ## Deployed Link:
-- [Link to Updated Portfolio Site](https://git.heroku.com/desolate-forest-66254.git)
+- [Link to Updated Portfolio Site](https://kellystone4.github.io/reverseEngineeringCode/)
