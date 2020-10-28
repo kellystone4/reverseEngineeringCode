@@ -138,7 +138,4 @@ Within this project, I included:
 - [Link to Github](https://github.com/kellystone4/reverseEngineeringCode)
 - [Link to LinkedIn](https://www.linkedin.com/in/kelly-a-stone/)
 
-<br>
 
-## Deployed Link:
-- [Link to Updated Portfolio Site](https://kellystone4.github.io/reverseEngineeringCode/)
