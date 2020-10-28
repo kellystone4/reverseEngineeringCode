@@ -41,6 +41,26 @@ Within this project, I included:
 
 </center>
 
+<br>
+
+<u>
+
+## Tutorial:
+
+1. You will need to open up an integrated terminal through server.js and npm install to get all the needed dependencies that are necessary for the application to run. 
+2. Then, go to your config folder, and enter your password into the config.json file.
+3. Next, you will need to create your database query into whatever database management tool you want to use (MySQL Workbench, Sequel Pro, ect.)
+4. Then, run node server.js in your integrated terminal.
+5. A success message will pop up with the local host port you can enter into your browser to view.
+6. You can now enjoy the application!
+
+</u>
+
+<br>
+
+- Config Folder: 
+
+    -  Within the config folder, there is a config.json and passport.js file, and a middleware folder containing a 
 
 <br>
 
