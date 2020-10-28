@@ -16,7 +16,7 @@
 </u>
 </center>
 
-### My goal for this assignment was to reverse engineer the code provided. I explained 'every' file and it's purpose in as fine as detail as possible. I included the routes for files dependant on other files. At the end of the tutorial, there are instructions for how you can add changes to the project.
+### My goal for this assignment was to reverse engineer the code provided. Within each file, I described code line by line. Each file and folder has a specific purpose, and all work together to make the application work. I included the routes for files dependant on other files. At the end of the tutorial, there are instructions for how you can add changes to the project.
 
 <br>
 
